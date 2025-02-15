@@ -6,19 +6,37 @@
         {
             #region A. 1 to N
 
-        /*    int N;
-            bool Flag;
+            /*    int N;
+                bool Flag;
 
+                do
+                {
+                    Console.WriteLine("Enter Your N");
+                    Flag = int.TryParse(Console.ReadLine(), out N);
+                } while (!Flag);
+                for (int i = 1; i<=N; i++)
+                    Console.WriteLine(i); */
+
+            #endregion
+
+            #region B. Even Numbers
+/*
+            int N;
+            bool Flag;
             do
             {
                 Console.WriteLine("Enter Your N");
                 Flag = int.TryParse(Console.ReadLine(), out N);
             } while (!Flag);
+
             for (int i = 1; i<=N; i++)
-                Console.WriteLine(i); */
+            {
+                if (i%2 == 0)
+                    Console.WriteLine(i);
+            }
+*/
 
             #endregion
-
 
         }
     }
